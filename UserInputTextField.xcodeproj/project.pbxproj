@@ -15,7 +15,7 @@
 		6B0F571320A5495F00C0DCE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F571220A5495F00C0DCE4 /* main.m */; };
 		6B0F571D20A5495F00C0DCE4 /* UserInputTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F571C20A5495F00C0DCE4 /* UserInputTextFieldTests.m */; };
 		6B0F572820A5495F00C0DCE4 /* UserInputTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F572720A5495F00C0DCE4 /* UserInputTextFieldUITests.m */; };
-		6B0F573720A5497500C0DCE4 /* UserInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F573620A5497500C0DCE4 /* UserInputTextField.m */; };
+		6B1ECB6D21F1D0F30015FA14 /* DecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECB6C21F1D0F30015FA14 /* DecimalTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		6B0F572320A5495F00C0DCE4 /* UserInputTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInputTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0F572720A5495F00C0DCE4 /* UserInputTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInputTextFieldUITests.m; sourceTree = "<group>"; };
 		6B0F572920A5495F00C0DCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B0F573520A5497500C0DCE4 /* UserInputTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInputTextField.h; sourceTree = "<group>"; };
-		6B0F573620A5497500C0DCE4 /* UserInputTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInputTextField.m; sourceTree = "<group>"; };
+		6B1ECB6B21F1D0F30015FA14 /* DecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecimalTextField.h; sourceTree = "<group>"; };
+		6B1ECB6C21F1D0F30015FA14 /* DecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecimalTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,12 @@
 		6B0F570220A5495C00C0DCE4 /* UserInputTextField */ = {
 			isa = PBXGroup;
 			children = (
+				6B1ECB6B21F1D0F30015FA14 /* DecimalTextField.h */,
+				6B1ECB6C21F1D0F30015FA14 /* DecimalTextField.m */,
 				6B0F570320A5495C00C0DCE4 /* AppDelegate.h */,
 				6B0F570420A5495C00C0DCE4 /* AppDelegate.m */,
 				6B0F570620A5495C00C0DCE4 /* ViewController.h */,
 				6B0F570720A5495C00C0DCE4 /* ViewController.m */,
-				6B0F573520A5497500C0DCE4 /* UserInputTextField.h */,
-				6B0F573620A5497500C0DCE4 /* UserInputTextField.m */,
 				6B0F570920A5495C00C0DCE4 /* Main.storyboard */,
 				6B0F570C20A5495F00C0DCE4 /* Assets.xcassets */,
 				6B0F570E20A5495F00C0DCE4 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 				6B0F570820A5495C00C0DCE4 /* ViewController.m in Sources */,
 				6B0F571320A5495F00C0DCE4 /* main.m in Sources */,
 				6B0F570520A5495C00C0DCE4 /* AppDelegate.m in Sources */,
-				6B0F573720A5497500C0DCE4 /* UserInputTextField.m in Sources */,
+				6B1ECB6D21F1D0F30015FA14 /* DecimalTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
