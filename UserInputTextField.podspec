@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "UserInputTextField"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "UserInputTextField 用来控制小数点输入"
   s.description  = <<-DESC
                            UserInputTextField 控制小数点输入，有效的解耦
@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/XiaBaKe/UserInputTextField.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/XiaBaKe/UserInputTextField.git", :tag => "1.0.1" }
 
-  s.source_files = 'UserInputTextField.h'
+  s.source_files = 'UserInputTextField/*.{h,m}'
   s.framework        = 'SystemConfiguration'
   s.requires_arc     = true
 end
